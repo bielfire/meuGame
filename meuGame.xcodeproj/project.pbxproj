@@ -8,15 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		43D86A7B238892F0003CBDC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D86A7A238892F0003CBDC4 /* AppDelegate.swift */; };
-		43D86A7D238892F0003CBDC4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 43D86A7C238892F0003CBDC4 /* GameScene.sks */; };
-		43D86A7F238892F0003CBDC4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 43D86A7E238892F0003CBDC4 /* Actions.sks */; };
-		43D86A81238892F0003CBDC4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D86A80238892F0003CBDC4 /* GameScene.swift */; };
-		43D86A83238892F0003CBDC4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D86A82238892F0003CBDC4 /* GameViewController.swift */; };
 		43D86A86238892F0003CBDC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D86A84238892F0003CBDC4 /* Main.storyboard */; };
 		43D86A88238892F1003CBDC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43D86A87238892F1003CBDC4 /* Assets.xcassets */; };
-		43D86A8B238892F1003CBDC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D86A89238892F1003CBDC4 /* LaunchScreen.storyboard */; };
 		43D86A96238892F1003CBDC4 /* meuGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D86A95238892F1003CBDC4 /* meuGameTests.swift */; };
 		43D86AA1238892F1003CBDC4 /* meuGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D86AA0238892F1003CBDC4 /* meuGameUITests.swift */; };
+		43D86AB1238896B9003CBDC4 /* MeuJogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D86AB0238896B9003CBDC4 /* MeuJogoViewController.swift */; };
+		43D86AB523889DF4003CBDC4 /* MeuJogo.sks in Resources */ = {isa = PBXBuildFile; fileRef = 43D86AB423889DF4003CBDC4 /* MeuJogo.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +36,8 @@
 /* Begin PBXFileReference section */
 		43D86A77238892F0003CBDC4 /* meuGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meuGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D86A7A238892F0003CBDC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43D86A7C238892F0003CBDC4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		43D86A7E238892F0003CBDC4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		43D86A80238892F0003CBDC4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		43D86A82238892F0003CBDC4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		43D86A85238892F0003CBDC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43D86A87238892F1003CBDC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		43D86A8A238892F1003CBDC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43D86A8C238892F1003CBDC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43D86A91238892F1003CBDC4 /* meuGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meuGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D86A95238892F1003CBDC4 /* meuGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meuGameTests.swift; sourceTree = "<group>"; };
@@ -53,6 +45,8 @@
 		43D86A9C238892F1003CBDC4 /* meuGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meuGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D86AA0238892F1003CBDC4 /* meuGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meuGameUITests.swift; sourceTree = "<group>"; };
 		43D86AA2238892F1003CBDC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D86AB0238896B9003CBDC4 /* MeuJogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuJogoViewController.swift; sourceTree = "<group>"; };
+		43D86AB423889DF4003CBDC4 /* MeuJogo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MeuJogo.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +77,8 @@
 		43D86A6E238892F0003CBDC4 = {
 			isa = PBXGroup;
 			children = (
+				43D86AB423889DF4003CBDC4 /* MeuJogo.sks */,
+				43D86AB0238896B9003CBDC4 /* MeuJogoViewController.swift */,
 				43D86A79238892F0003CBDC4 /* meuGame */,
 				43D86A94238892F1003CBDC4 /* meuGameTests */,
 				43D86A9F238892F1003CBDC4 /* meuGameUITests */,
@@ -104,13 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				43D86A7A238892F0003CBDC4 /* AppDelegate.swift */,
-				43D86A7C238892F0003CBDC4 /* GameScene.sks */,
-				43D86A7E238892F0003CBDC4 /* Actions.sks */,
-				43D86A80238892F0003CBDC4 /* GameScene.swift */,
-				43D86A82238892F0003CBDC4 /* GameViewController.swift */,
 				43D86A84238892F0003CBDC4 /* Main.storyboard */,
 				43D86A87238892F1003CBDC4 /* Assets.xcassets */,
-				43D86A89238892F1003CBDC4 /* LaunchScreen.storyboard */,
 				43D86A8C238892F1003CBDC4 /* Info.plist */,
 			);
 			path = meuGame;
@@ -239,10 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43D86A86238892F0003CBDC4 /* Main.storyboard in Resources */,
-				43D86A7D238892F0003CBDC4 /* GameScene.sks in Resources */,
+				43D86AB523889DF4003CBDC4 /* MeuJogo.sks in Resources */,
 				43D86A88238892F1003CBDC4 /* Assets.xcassets in Resources */,
-				43D86A8B238892F1003CBDC4 /* LaunchScreen.storyboard in Resources */,
-				43D86A7F238892F0003CBDC4 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43D86A81238892F0003CBDC4 /* GameScene.swift in Sources */,
-				43D86A83238892F0003CBDC4 /* GameViewController.swift in Sources */,
 				43D86A7B238892F0003CBDC4 /* AppDelegate.swift in Sources */,
+				43D86AB1238896B9003CBDC4 /* MeuJogoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +299,6 @@
 				43D86A85238892F0003CBDC4 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		43D86A89238892F1003CBDC4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				43D86A8A238892F1003CBDC4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -445,6 +425,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4G392XHTG6;
 				INFOPLIST_FILE = meuGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.amicows.meuGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,6 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4G392XHTG6;
 				INFOPLIST_FILE = meuGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,7 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.amicows.meuGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
